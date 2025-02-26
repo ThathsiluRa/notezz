@@ -2,7 +2,7 @@
 
 A modern, responsive note-taking application inspired by Apple Notes. Features include user authentication, real-time note editing, and dark mode support.
 
-![Alt text](image-folder/Screenshot.png)
+![Alt text](https://ibb.co/VYpPy6jc)
 
 
 ## ✨ Features
