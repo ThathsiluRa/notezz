@@ -23,7 +23,7 @@ A modern, responsive note-taking application inspired by Apple Notes. Features i
 ### Installation Steps
 
 1. **Clone the repository**
-```git clone https://github.com/yourusername/notes-app.git
+```git clone https://github.com/ThathsiluRa/notezz
 cd notes-app```
 
 2. Install dependencies:
@@ -215,5 +215,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - MongoDB Atlas for database hosting
 
 ## Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/notes-app
+Your Name - thathsilura@gmail.com
+Project Link: https://github.com/ThathsiluRa/notezz
