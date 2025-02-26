@@ -25,7 +25,6 @@ A modern, responsive note-taking application inspired by Apple Notes. Features i
 
 1. **Clone the repository**
 git clone https://github.com/ThathsiluRa/notezz
-cd notes-app```
 
 2. Install dependencies:
 ```npm install```
