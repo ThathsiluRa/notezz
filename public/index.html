@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Auth Forms -->
+        <div id="auth-container" class="auth-container">
+            <div class="auth-box">
+                <h2>Welcome to Notes</h2>
+                <div class="auth-tabs">
+                    <button class="tab-btn active" data-tab="login">Sign In</button>
+                    <button class="tab-btn" data-tab="register">Register</button>
+                </div>
+                
+                <form id="login-form" class="auth-form">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign In</button>
+                </form>
+
+                <form id="register-form" class="auth-form hidden">
+                    <input type="text" placeholder="Username" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Notes Container -->
+        <div id="notes-container" class="notes-container hidden">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <h2>Notes</h2>
+                    <button id="new-note-btn" class="icon-btn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                <div id="notes-list" class="notes-list"></div>
+            </div>
+            
+            <div class="note-editor">
+                <div class="editor-header">
+                    <div class="editor-actions">
+                        <button id="dark-mode-toggle" class="icon-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        <button id="save-note" class="icon-btn">
+                            <i class="fas fa-check"></i>
+                        </button>
+                        <button id="logout-btn" class="icon-btn">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="editor-content">
+                    <input type="text" id="note-title" placeholder="Title">
+                    <textarea id="note-content" placeholder="Note"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
