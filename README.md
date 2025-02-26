@@ -215,5 +215,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - MongoDB Atlas for database hosting
 
 ## Contact
-Your Name - thathsilura@gmail.com
+Email - thathsilura@gmail.com
 Project Link: https://github.com/ThathsiluRa/notezz
